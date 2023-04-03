@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Perpustakaan Lhokseumawe </title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        header {
+            background-color:grey;
+            padding: 15px;
+            text-align: center;
+            font-size: 15px;
+            color: white;
+        }
+        
+        .hai {
+            background-color: blue;
+            color: white;
+            width: 30%;
+            padding: 10px;
+            height: 20px;
+            text-align: left;
+        }
+    
+        .font{
+            margin-top: -20px;
+            margin-bottom: -16px;
+            background-color: blue;
+            
+        }
+        
+        nav{
+            float: left;
+            width: 22%;
+            height: 270px;
+            padding: 5px;
+            margin: 0%;
+            padding: 0%;
+            border: 0cm;
+        }
+        .entry {
+            background-color: blue;
+            color: white;
+            width: 90%;
+            height: 20px;
+            padding: 10px;
+            font-size: 15px;
+            text-align: left;
+        }
+        
+        .laporan {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            width: 90%;
+            height: 20px;
+            font-size: 15px;
+            text-align: left;
+        }
+        
+        article {
+            margin-left: 290px;
+            margin-top: -290px;
+            margin-right: 290px;
+            float: left;
+            padding: 30px;
+            width: 65%;
+            height: 310px;
+        }
+        .membaca {
+            font-size: 15px;
+            text-align: center;
+        }
+        
+        .h4 {
+            border-style: solid;
+            border-spacing: 5px;
+            width: 100%;
+        }
+    
+        nav ul {
+            float: left;
+            content: "";
+            display: table;
+            clear: both;
+            list-style-type: none;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            background-color: lightgray;
+        }
+        
+        li a {
+            display: block;
+            color:black;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+          /* Change the link color on hover */
+        li a:hover {
+            background-color: gray;
+            color: white;
+        }
+        @media (max-width: 600px) {
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Perpustakaan Lhokseumawe</h1>
+        <h4> Jln. H.Ramli Ridwan Desa Mon Geudong | Hp: 082277530500 </h4>
+    </header>
+    <div class="font">
+        <p class="hai">Hai Admin!</p>
+    </div>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Beranda</a></li>
+            <p class="entry">Entry Data Dan Transaksi</p>
+            <li><a href="data anggota.html">Data Anggota</a></li>
+            <li><a href="data buku.html">Data Buku</a></li>
+            <li><a href="transaction.html">Transaksi Peminjaman</a></li>
+            <p class="laporan">Laporan</p>
+            <li><a href="#">Lap Data Anggota</a></li>
+            <li><a href="#">Lap Data Buku</a></li>
+        </ul>
+    </nav>
+    <article>
+        <h4 class="h4">Beranda</h4>
+        <p class="membaca"><b>SELAMAT DATANG DI SISTEM INFORMASI PERPUSTAKAAN PNL</b></p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p class="membaca">
+                <marquee> "MEMBACA ADALAH JENDELA DUNIA"
+                </marquee>
+            </p>
+        </article>
+</body>
+
+</html>
